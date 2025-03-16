@@ -30,3 +30,43 @@ if (isValid) {
 let age = "25";
 let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
+
+
+
+
+
+let result = ("5") - 2; // convert string to number for subtraction. implicit type conversion.
+console.log("The result is: " + result);
+
+let isValid = Boolean("true"); // convert string to boolean. explicit type conversion.
+if (isValid) {
+    console.log("This is valid!");
+}
+
+let age = +"25"; // convert string to number for addition.
+let totalAge = age + 5;
+console.log("Total Age: " + totalAge);
+
+The result is: 3
+This is valid!
+Total Age: 30
+
+
+
+
+
+let result = ("null") - 2; // null
+console.log("The result is: " + result);
+
+let isValid = Boolean("true"); 
+if (isValid) {
+    console.log("This is valid!");
+}
+
+let age = +"25";
+let totalAge = age + 5;
+console.log("Total Age: " + totalAge);
+
+The result is: NaN
+This is valid!
+Total Age: 30
